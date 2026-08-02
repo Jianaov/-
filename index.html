@@ -2183,19 +2183,27 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   </div>
 
   <!-- ===== POPUP IOS VERSION ===== -->
-  <div id="iosVersionPopup" class="modal-overlay">
+<div id="androidArch" class="modal-overlay">
     <div class="modal-box">
-      <div class="modal-icon apple"><i class="bi bi-apple"></i></div>
-      <h3>Chọn phiên bản iOS</h3>
-      <p>Chọn bản LQM bạn muốn tải về</p>
-      <div class="modal-actions">
-        <a id="iosV1" class="modal-btn primary"><i class="bi bi-lightning-fill"></i> Bản V1 – Mượt / Máy yếu</a>
-        <a id="iosV2" class="modal-btn secondary"><i class="bi bi-stars"></i> Bản V2 – CN Ngon</a>
+      <div class="modal-icon android-icon"><i class="bi bi-android2"></i></div>
+      <h3>Tải App IOS</h3>
+      <p>Vui lòng tải bản tách gốc nếu muốn sử dụng chung với bản <strong>CHPlay</strong></p>
+      <div class="modal-actions vertical">
+        <a id="apk64" class="modal-btn primary" target="_blank" rel="noopener">
+          <i class="bi bi-cpu-fill"></i> Tải MOD TÁCH GỐC
+        </a>
+        <a id="apk32" class="modal-btn secondary" target="_blank" rel="noopener" style="display:none">
+          <i class="bi bi-cpu"></i> Tải MOD GỘP GỐC
+        </a>
+      </div>
+      <div class="modal-getkey-wrap">
+        <a id="apkKey" class="modal-getkey-btn" target="_blank" rel="noopener">
+          <i class="bi bi-key-fill"></i> Get Key Free
+        </a>
       </div>
       <button class="modal-cancel"><i class="bi bi-x"></i> Huỷ bỏ</button>
     </div>
   </div>
-
   <!-- ===== MENU TOGGLE ===== -->
   <button id="menuToggle" class="menu-fab" aria-label="Menu" style="">
     <span></span><span></span><span></span>
